@@ -1,0 +1,18 @@
+[project]
+name = "cloud-removal"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.0",
+    "omnicloudmask",
+    "pystac-client>=0.8.5",
+    "rasterio>=1.4.3",
+    "rioxarray>=0.18.2",
+    "stackstac>=0.5.1",
+]
+
+[tool.uv.sources]
+omnicloudmask = { git = "https://github.com/DPIRD-DMA/OmniCloudMask.git" }
